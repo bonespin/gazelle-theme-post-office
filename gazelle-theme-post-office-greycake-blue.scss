@@ -350,18 +350,20 @@ div#wrapper div#content td.label {
 }
 
 #logo {
-    width: 405px;
-    height: 62px;
+    width: 314px;
+    height: 88px;
     background: url(#{$logo}) no-repeat top left;
-    margin-left: -202.5px;
+    margin-left: auto;
+    margin-right: auto;
     position: absolute;
     z-index: 2;
-    left: 50%;
-    top: 56px;
+    left: 0%;
+    right: 0%;
+    top: 44px;
     a {
 	    border: none;
-	    width: 405px;
-	    height: 62px;
+	    width: 314px;
+	    height: 88px;
 	    display: block;
 	}
 }
