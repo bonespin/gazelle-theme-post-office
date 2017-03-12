@@ -1466,7 +1466,7 @@ select {
     	// background-color: $button-bg-hover;
     }
     &:active, &:focus {
-		background-color: $button-bg-pressed;
+		background-color: $button-bg-base;
 	    box-shadow: inset 0px 2px 4px rgba(0,0,0,0.15);
 	    outline: 0;
     }
@@ -1481,7 +1481,7 @@ select {
 option,
 option:active,
 option:focus {
-    background: $button-bg-pressed;
+    background: $button-bg-hover;
     padding: 1px;
     margin: 0;
     color: $link-color;
