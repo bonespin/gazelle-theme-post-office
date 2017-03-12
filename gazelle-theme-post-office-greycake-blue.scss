@@ -118,7 +118,7 @@ table tbody a:hover,
 .main_column a:hover,
 .sidebar a:hover,
 .box a:hover {
-    color: $link-color-alt;
+    color: $highlight-color;
     transition: color .25s ease-out;
 }
 
@@ -128,8 +128,7 @@ table tbody a:hover,
 
 #header a:hover,
 .linkbox a:hover {
-    /*text-decoration: underline;*/
-    color: $link-color;
+    color: $highlight-color;
 }
 
 a[onclick]:focus {
@@ -516,12 +515,11 @@ li#nav_subscriptions a {
         box-shadow: none !important;
     }
     input:hover {
-        color: $link-color;
+        color: $highlight-color;
     }
     input:active,
     input:focus {
-        /*background: url(#{$content-bg});*/
-        /*border: 1px solid #EEE;*/
+        
     }
     ul {
         margin: 0;
