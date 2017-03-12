@@ -1,4 +1,4 @@
-Post Office for Apollo.rip
+Post Office GreyCake Blue for Apollo.rip
 ==
 
 Repository for the forked and modified version of the official Post Office theme for Apollo.rip. 
