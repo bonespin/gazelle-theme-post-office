@@ -1,17 +1,11 @@
 Post Office for Apollo.rip
 ==
 
-Repository for the official Post Office theme on apollo.rip. 
+Repository for the forked and modified version of the official Post Office theme for Apollo.rip. 
 
-![](https://i.imgur.com/JSlCzti.png)
+![](post-office-greycake-blue.jpg?raw=true)
 
 Building
 --
 
-    node-sass post-office.scss output.css
-
-Todo
---
-
-* Inline images in CSS
-* Further clean up nested selectors
+    node-sass pgazelle-theme-post-office-greycake-blue.scss gazelle-theme-post-office-greycake-blue.css
