@@ -45,7 +45,7 @@ $button-bg-pressed: #333333;
 
 $highlight-color: #9cbcdc;
 $body-background: #1a1a1a;
-$link-color: #f7f7f7;
+$link-color: #438fdc;
 $box-header: #373737;
 $box-contents: #262626;
 $box-textcolor: #999999;
@@ -350,18 +350,17 @@ div#wrapper div#content td.label {
 }
 
 #logo {
-    width: 489px;
+    width: 405px;
     height: 62px;
     background: url(#{$logo}) no-repeat top left;
-    margin-left: -244.5px;
+    margin-left: -202.5px;
     position: absolute;
     z-index: 2;
-    background-size: 489px 62px;
     left: 50%;
-    top: 66px;
+    top: 56px;
     a {
 	    border: none;
-	    width: 489px;
+	    width: 405px;
 	    height: 62px;
 	    display: block;
 	}
