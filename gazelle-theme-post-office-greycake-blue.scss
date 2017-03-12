@@ -40,7 +40,7 @@ $right-poll: "https://cdn.rawgit.com/bonespin/gazelle-theme-post-office-greycake
 /* Colors */
 
 $button-bg-base: #4f4f4f;
-$button-bg-hover: #3f3f3f;
+$button-bg-hover: #999999;
 $button-bg-pressed: #333333;
 
 $highlight-color: #9cbcdc;
@@ -449,19 +449,29 @@ div#userinfo ul li {
     font-size: 11px;
 }
 
-#userinfo_major {}
+#userinfo_major {
 
-#userinfo_username {}
+}
 
-#userinfo_stats {}
+#userinfo_username {
 
-#userinfo_stats a {}
+}
+
+#userinfo_stats {
+
+}
+
+#userinfo_stats a {
+
+}
 
 #userinfo_stats li span {
     color: $box-textcolor;
 }
 
-#userinfo_minor {}
+#userinfo_minor {
+
+}
 
 #userinfo_minor li a {
     color: $link-color;
@@ -472,7 +482,7 @@ div#userinfo ul li {
 }
 
 li#nav_subscriptions a {
-    color: $highlight-color;
+    color: $link-color;
 }
 
 #userinfo img {
