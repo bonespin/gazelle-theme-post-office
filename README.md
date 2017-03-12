@@ -1,7 +1,7 @@
-Post Office GreyCake Blue for Redacted
+Post Office GreyCake Blue for NWCD
 ==
 
-Repository for a forked and modified version of the official Post Office theme for Apollo.rip for Redacted. 
+Repository for a forked and modified version of the official Post Office theme for Apollo.rip for NWCD. 
 
 ![](post-office-greycake-blue.jpg?raw=true)
 
