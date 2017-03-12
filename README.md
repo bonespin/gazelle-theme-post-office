@@ -3,7 +3,7 @@ Post Office GreyCake Blue for Redacted
 
 Repository for a forked and modified version of the official Post Office theme for Apollo.rip for Redacted. 
 
-![](post-office-greycake-bluejpg?raw=true)
+![](post-office-greycake-blue.jpg?raw=true)
 
 Building
 --
