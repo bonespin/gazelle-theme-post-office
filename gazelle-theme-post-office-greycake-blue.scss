@@ -1463,7 +1463,7 @@ select {
     padding: 7px;
     transition: background-color 0.2s;
     &:hover {
-    	background-color: $button-bg-hover;
+    	// background-color: $button-bg-hover;
     }
     &:active, &:focus {
 		background-color: $button-bg-pressed;
