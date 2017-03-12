@@ -5,44 +5,52 @@ $sans-serif-font: 'Lato', sans-serif;
 apollo-theme-post-office: A continuation of the original wcd-theme-post-office by dannymichel, 
 with various fixes and updated image resources for apollo.rip.
 Originally forked from Postmodern, which was based on 'Zeal', a modification of the original 'Teal' by pellad.
+Further modified by Bonespin pulling the background from GreyCake and make links blue.
 */
 
 /* Image resources */
+
 $postmod-images-directory: "https://apollo.rip/static/styles/postmod/images";
-$logo: "https://i.imgur.com/W1b6om4.png";
+$logo: "https://cdn.rawgit.com/bonespin/gazelle-theme-post-office-greycake-blue/c62a31c6/img/apollo-logo.png";
+$bg-image: "https://cdn.rawgit.com/bonespin/gazelle-theme-post-office-greycake-blue/c62a31c6/img/dark-wood.jpg";
+$footer-bg: "https://cdn.rawgit.com/bonespin/gazelle-theme-post-office-greycake-blue/c62a31c6/img/bg-footer.png";
+$gazelle-image: "https://cdn.rawgit.com/bonespin/gazelle-theme-post-office-greycake-blue/c62a31c6/img/gazelle.png";
 
-$external-link: "https://i.imgur.com/Zuw7iO2.png";
-$button-bg: "https://i.imgur.com/3esLSKv.png";
+$external-link: "https://cdn.rawgit.com/bonespin/gazelle-theme-post-office-greycake-blue/c62a31c6/img/link-ext.png";
+$button-bg: "https://cdn.rawgit.com/bonespin/gazelle-theme-post-office-greycake-blue/c62a31c6/img/btn-bg.png";
+$content-bg: "https://cdn.rawgit.com/bonespin/gazelle-theme-post-office-greycake-blue/c62a31c6/img/content.png";
 
-$show-torrents: "https://i.imgur.com/qA3ULfm.png";
-$hide-torrents: "https://i.imgur.com/WzEcqP8.png";
+$show-torrents: "https://cdn.rawgit.com/bonespin/gazelle-theme-post-office-greycake-blue/c62a31c6/img/down-arrow.png";
+$hide-torrents: "https://cdn.rawgit.com/bonespin/gazelle-theme-post-office-greycake-blue/c62a31c6/img/up-arrow.png";
 
-$last-read: "https://i.imgur.com/ILascFJ.png";
-$unread-locked-sticky: "https://i.imgur.com/66gbqTU.png";
-$read-locked-sticky: "https://i.imgur.com/QcCEhm4.png";
-$unread-sticky: "https://i.imgur.com/5CHDtKu.png";
-$read-sticky: "https://i.imgur.com/rIGNHbL.png";
-$unread-locked: "https://i.imgur.com/bRaOm5A.png";
-$read-locked: "https://i.imgur.com/CR0WHu9.png";
-$unread: "https://i.imgur.com/xHZY9ef.png";
-$read: "https://i.imgur.com/syFToZe.png";
+$last-read: "https://cdn.rawgit.com/bonespin/gazelle-theme-post-office-greycake-blue/c62a31c6/img/right-arrow.png";
+$unread-locked-sticky: "https://cdn.rawgit.com/bonespin/gazelle-theme-post-office-greycake-blue/c62a31c6/img/unread-locked-sticky.png";
+$read-locked-sticky: "https://cdn.rawgit.com/bonespin/gazelle-theme-post-office-greycake-blue/c62a31c6/img/read-locked-sticky.png";
+$unread-sticky: "https://cdn.rawgit.com/bonespin/gazelle-theme-post-office-greycake-blue/c62a31c6/img/unread-sticky.png";
+$read-sticky: "https://cdn.rawgit.com/bonespin/gazelle-theme-post-office-greycake-blue/c62a31c6/img/read-sticky.png";
+$unread-locked: "https://cdn.rawgit.com/bonespin/gazelle-theme-post-office-greycake-blue/c62a31c6/img/unread-locked.png";
+$read-locked: "https://cdn.rawgit.com/bonespin/gazelle-theme-post-office-greycake-blue/c62a31c6/img/read-locked.png";
+$unread: "https://cdn.rawgit.com/bonespin/gazelle-theme-post-office-greycake-blue/c62a31c6/img/unread.png";
+$read: "https://cdn.rawgit.com/bonespin/gazelle-theme-post-office-greycake-blue/c62a31c6/img/read.png";
 
-$left-poll: "https://i.imgur.com/G30gZo5.png";
-$center-poll: "https://i.imgur.com/G0SlBSb.png";
-$right-poll: "https://i.imgur.com/JVQj8zq.png";
+$left-poll: "https://cdn.rawgit.com/bonespin/gazelle-theme-post-office-greycake-blue/c62a31c6/img/left-poll.png";
+$center-poll: "https://cdn.rawgit.com/bonespin/gazelle-theme-post-office-greycake-blue/c62a31c6/img/center-poll.png";
+$right-poll: "https://cdn.rawgit.com/bonespin/gazelle-theme-post-office-greycake-blue/c62a31c6/img/right-poll.png";
 
 /* Colors */
-$button-bg-base: #373737;
-$button-bg-hover: #444;
-$button-bg-pressed: #333;
 
-$highlight-color: #b39770;
+$button-bg-base: #4f4f4f;
+$button-bg-hover: #999999;
+$button-bg-pressed: #333333;
+
+$highlight-color: #9cbcdc;
 $body-background: #1a1a1a;
 $link-color: #f7f7f7;
+$link-color-alt: #438fdc;
 $box-header: #373737;
 $box-contents: #262626;
-$box-textcolor: #9a9a9a;
-$textbox-highlight: #5d5d5d;
+$box-textcolor: #999999;
+$textbox-highlight: #9a9a9a;
 
 /* Layout (Torrents page) */
 
@@ -56,11 +64,14 @@ html {
 }
 
 body {
-    background: $body-background;
     font-family: $sans-serif-font;
     font-size: 13px;
     color: $box-textcolor;
-    background-size: cover;
+    background-image: url(#{$bg-image});
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: $body-background;
 }
 
 .forum_post pre {
@@ -69,14 +80,7 @@ body {
     overflow: auto;
 }
 
-table tbody,
-.main_column,
-.sidebar,
-.box,
-.thin,
-.pad,
-#threadpoll,
-#poll {
+table tbody, .main_column, .sidebar, .box, .thin, .pad, #threadpoll, #poll {
     color: $box-textcolor;
 }
 
@@ -106,7 +110,7 @@ table tbody a,
 .main_column a,
 .sidebar a,
 .box a {
-    color: $highlight-color;
+    color: $link-color-alt;
     transition: color .25s ease-out;
 }
 
@@ -114,7 +118,7 @@ table tbody a:hover,
 .main_column a:hover,
 .sidebar a:hover,
 .box a:hover {
-    color: $link-color;
+    color: $highlight-color;
     transition: color .25s ease-out;
 }
 
@@ -124,8 +128,7 @@ table tbody a:hover,
 
 #header a:hover,
 .linkbox a:hover {
-    /*text-decoration: underline;*/
-    color: $link-color;
+    color: $highlight-color;
 }
 
 a[onclick]:focus {
@@ -135,7 +138,6 @@ a[onclick]:focus {
 
 a[onclick]:active {
     outline: 0;
-    /*	background: url(images/load.gif) 100% 4px no-repeat; */
 }
 
 a[onclick^="AddArtistField"]:focus,
@@ -214,7 +216,7 @@ h3 {
 }
 
 ul#noty_bottomRight_layout_container a {
-    color: #b3966f;
+    color: $link-color-alt;
 }
 
 .box, .box2 {
@@ -249,6 +251,7 @@ img {
 
 
 /* Styles generated by the BBCode parser */
+
 span {
 	&.size1 {
 		font-size: 0.75em;
@@ -300,7 +303,6 @@ ul.thin {
 #header {
     width: 100%;
     margin: 0 auto 0 auto;
-    /*background: url(#{$postmod-images-directory}/bg_header.png) 11px 65px no-repeat;*/
     height: 173px;
     padding: 0 0 0 0;
 }
@@ -314,14 +316,14 @@ ul.thin {
 }
 
 #alerts {
-    background: transparent url(#{$postmod-images-directory}/content.png);
+    background: transparent url(#{$content-bg});
     padding: 4px 9px;
     margin: -19px auto 0 auto;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
 }
 
 #footer {
-    background: transparent url(#{$postmod-images-directory}/bg_footer.png);
+    background: transparent url(#{$footer-bg});
     margin-top: 40px;
     width: 100%;
     text-align: center;
@@ -335,7 +337,7 @@ ul.thin {
 }
 
 #footer:after {
-    content: url(#{$postmod-images-directory}/gazelle.png);
+    content: url(#{$gazelle-image});
 }
 
 #disclaimer_container {
@@ -348,19 +350,18 @@ div#wrapper div#content td.label {
 }
 
 #logo {
-    width: 259px;
-    height: 62px;
+    width: 518px;
+    height: 124px;
     background: url(#{$logo}) no-repeat top left;
-    margin-left: -129.5px;
+    margin-left: -259px;
     position: absolute;
     z-index: 2;
-    background-size: 259px 62px;
     left: 50%;
-    top: 66px;
+    top: 26px;
     a {
 	    border: none;
-	    width: 259px;
-	    height: 62px;
+	    width: 518px;
+	    height: 124px;
 	    display: block;
 	}
 }
@@ -429,39 +430,6 @@ div#wrapper div#content td.label {
     border-bottom: 4px solid #111;
 }
 
-/*
-#nav_index a { background-position: 0 0; width: 75px; }
-#nav_index a:hover { background-position: 0 -34px; }
-#index #nav_index a { background-position: 0 -69px; }
-#nav_torrents a { background-position: -75px 0; width: 75px; }
-#nav_torrents a:hover { background-position: -75px -34px; }
-#torrents #nav_torrents a { background-position: -75px -69px; }
-#nav_collages a { background-position: -150px 0; width: 75px; }
-#nav_collages a:hover { background-position: -150px -34px; }
-#collage #nav_collages a { background-position: -150px -69px; }
-#nav_requests a { background-position: -225px 0; width: 75px; }
-#nav_requests a:hover { background-position: -225px -34px; }
-#requests #nav_requests a { background-position: -225px -69px; }
-#nav_forums a { background-position: -300px 0; width: 75px; }
-#nav_forums a:hover { background-position: -300px -34px; }
-#forums #nav_forums a { background-position: -300px -69px; }
-#nav_irc a { background-position: -375px 0; width: 75px; }
-#nav_irc a:hover { background-position: -375px -34px; }
-#irc #nav_irc a { background-position: -375px -69px; }
-#nav_top10 a { background-position: -450px 0; width: 75px; }
-#nav_top10 a:hover { background-position: -450px -34px; }
-#top10 #nav_top10 a { background-position: -450px -69px; }
-#nav_rules a { background-position: -525px 0; width: 75px; }
-#nav_rules a:hover { background-position: -525px -34px; }
-#rules #nav_rules a { background-position: -525px -69px; }
-#nav_wiki a { background-position: -600px 0; width: 75px; }
-#nav_wiki a:hover { background-position: -600px -34px; }
-#wiki #nav_wiki a { background-position: -600px -69px; }
-#nav_staff a { background-position: -675px 0; width: 75px; }
-#nav_staff a:hover { background-position: -675px -34px; }
-#staff #nav_staff a { background-position: -675px -69px; }
-*/
-
 div#userinfo ul {
     display: inline-block;
     padding: 0 2px;
@@ -481,19 +449,29 @@ div#userinfo ul li {
     font-size: 11px;
 }
 
-#userinfo_major {}
+#userinfo_major {
 
-#userinfo_username {}
+}
 
-#userinfo_stats {}
+#userinfo_username {
 
-#userinfo_stats a {}
+}
+
+#userinfo_stats {
+
+}
+
+#userinfo_stats a {
+
+}
 
 #userinfo_stats li span {
     color: $box-textcolor;
 }
 
-#userinfo_minor {}
+#userinfo_minor {
+
+}
 
 #userinfo_minor li a {
     color: $link-color;
@@ -504,7 +482,7 @@ div#userinfo ul li {
 }
 
 li#nav_subscriptions a {
-    color: $highlight-color;
+    color: $link-color;
 }
 
 #userinfo img {
@@ -547,12 +525,11 @@ li#nav_subscriptions a {
         box-shadow: none !important;
     }
     input:hover {
-        color: $link-color;
+        color: $highlight-color;
     }
     input:active,
     input:focus {
-        /*background: url(#{$postmod-images-directory}/content.png);*/
-        /*border: 1px solid #EEE;*/
+
     }
     ul {
         margin: 0;
@@ -576,7 +553,7 @@ li#nav_subscriptions a {
                 left: 0;
                 z-index: 1000;
                 border: 1px solid #EEE;
-                background: url(#{$postmod-images-directory}/content.png);
+                background: url(#{$content-bg});
                 width: 12em;
                 margin-top: 12px;
                 li {
@@ -595,7 +572,7 @@ li#nav_subscriptions a {
 }
 
 #autocomplete {
-    background: url(#{$postmod-images-directory}/content.png);
+    background: url(#{$content-bg});
     border: 1px solid #EEE;
     list-style: none;
 }
@@ -770,7 +747,7 @@ tr.colhead_dark td {
 .forum_list .colhead,
 .forum_index a,
 .forum_index .colhead {
-    color: $link-color;
+    // color: $link-color-alt
 }
 
 .forum_list a:hover,
@@ -838,11 +815,11 @@ tr.colhead_dark td {
 }
 
 .group_torrent a:hover {
-    color: $highlight-color;
+    color: $link-color-alt;
 }
 
 .tags a:hover {
-    color: $highlight-color;
+    color: $link-color-alt;
 }
 
 .noborder {
@@ -910,7 +887,7 @@ table {
 .colhead,
 .colhead_dark a:hover,
 .head a:hover {
-    color: $highlight-color;
+    color: $link-color;
 }
 
 .colhead a,
@@ -1042,11 +1019,6 @@ ul.poll li.graph {
 div#ft_container tr {
     background: transparent;
 }
-
-
-/*table#torrent_table td,table#torrent_details tr td,table#discog_table td,table#request_table td,form.search_form td,#requests table.layout td,form.search_form table td,#top10 table.torrent_table td,#upload form#upload_table td,#artist .torrent_table td,table#dnulist td {
-    padding:5px;
-    }*/
 
 h2 span {
     color: $box-textcolor;
@@ -1191,7 +1163,7 @@ table.forum_post td {
 table.forum_unread {
     border-top-width: 5px;
     border-top-style: solid;
-    border-color: $highlight-color;
+    border-color: $link-color-alt;
 }
 
 td.avatar {
@@ -1293,9 +1265,6 @@ ul .invitetree {
     list-style: none;
     margin: 10px 2px;
 }
-
-
-/*.thin .body a:hover, .thin .box a:hover, .thin .body a:focus, .thin .box a:focus { background: ; }*/
 
 .head a:hover,
 .colhead a:hover,
@@ -1483,11 +1452,6 @@ table.forum_post input[type="button"] {
 	margin: 0px;
 }
 
-/*
-textarea[disabled="disabled"] { background: #444; color: $link-color; }
-textarea[disabled="disabled"]:hover, textarea[disabled="disabled"]:focus, textarea[disabled="disabled"]:active { background-color: #444; color: $link-color; }
-*/
-
 select {
     background: $button-bg-base;
     display: inline-block;
@@ -1499,10 +1463,10 @@ select {
     padding: 7px;
     transition: background-color 0.2s;
     &:hover {
-    	background-color: $button-bg-hover;
+    	// background-color: $button-bg-hover;
     }
     &:active, &:focus {
-		background-color: $button-bg-pressed;
+		background-color: $button-bg-base;
 	    box-shadow: inset 0px 2px 4px rgba(0,0,0,0.15);
 	    outline: 0;
     }
@@ -1517,7 +1481,7 @@ select {
 option,
 option:active,
 option:focus {
-    background: $button-bg-hover;
+    background: $button-bg-pressed;
     padding: 1px;
     margin: 0;
     color: $link-color;
