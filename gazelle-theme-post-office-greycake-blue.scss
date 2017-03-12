@@ -45,7 +45,8 @@ $button-bg-pressed: #333333;
 
 $highlight-color: #9cbcdc;
 $body-background: #1a1a1a;
-$link-color: #438fdc;
+$link-color: #f7f7f7;
+$link-color-alt: #438fdc;
 $box-header: #373737;
 $box-contents: #262626;
 $box-textcolor: #999999;
@@ -102,14 +103,14 @@ a img {
 }
 
 .forum_index tr td:nth-child(3n) a.tooltip:hover {
-    color: $highlight-color;
+    color: $link-color-alt;
 }
 
 table tbody a,
 .main_column a,
 .sidebar a,
 .box a {
-    color: $highlight-color;
+    color: $link-color-alt;
     transition: color .25s ease-out;
 }
 
@@ -117,7 +118,7 @@ table tbody a:hover,
 .main_column a:hover,
 .sidebar a:hover,
 .box a:hover {
-    color: $link-color;
+    color: $link-color-alt;
     transition: color .25s ease-out;
 }
 
@@ -216,7 +217,7 @@ h3 {
 }
 
 ul#noty_bottomRight_layout_container a {
-    color: #b3966f;
+    color: $link-color-alt;
 }
 
 .box, .box2 {
@@ -743,7 +744,7 @@ tr.colhead_dark td {
 
 .forum_list a:hover,
 .forum_index a:hover {
-    color: $highlight-color;
+    color: $link-color-alt;
 }
 
 .forum_list .colhead td,
@@ -806,11 +807,11 @@ tr.colhead_dark td {
 }
 
 .group_torrent a:hover {
-    color: $highlight-color;
+    color: $link-color-alt;
 }
 
 .tags a:hover {
-    color: $highlight-color;
+    color: $link-color-alt;
 }
 
 .noborder {
@@ -878,7 +879,7 @@ table {
 .colhead,
 .colhead_dark a:hover,
 .head a:hover {
-    color: $highlight-color;
+    color: $link-color-alt;
 }
 
 .colhead a,
@@ -1154,7 +1155,7 @@ table.forum_post td {
 table.forum_unread {
     border-top-width: 5px;
     border-top-style: solid;
-    border-color: $highlight-color;
+    border-color: $link-color-alt;
 }
 
 td.avatar {
