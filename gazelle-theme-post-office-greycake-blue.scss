@@ -103,7 +103,7 @@ a img {
 }
 
 .forum_index tr td:nth-child(3n) a.tooltip:hover {
-    color: $link-color-alt;
+    color: $highlight-color;
 }
 
 table tbody a,
@@ -519,7 +519,7 @@ li#nav_subscriptions a {
     }
     input:active,
     input:focus {
-        
+
     }
     ul {
         margin: 0;
@@ -737,12 +737,12 @@ tr.colhead_dark td {
 .forum_list .colhead,
 .forum_index a,
 .forum_index .colhead {
-    color: $link-color;
+    // color: $link-color-alt
 }
 
 .forum_list a:hover,
 .forum_index a:hover {
-    color: $link-color-alt;
+    color: $highlight-color;
 }
 
 .forum_list .colhead td,
@@ -877,7 +877,7 @@ table {
 .colhead,
 .colhead_dark a:hover,
 .head a:hover {
-    color: $link-color-alt;
+    color: $link-color;
 }
 
 .colhead a,
