@@ -1481,7 +1481,7 @@ select {
 option,
 option:active,
 option:focus {
-    background: $button-bg-hover;
+    background: $button-bg-pressed;
     padding: 1px;
     margin: 0;
     color: $link-color;
