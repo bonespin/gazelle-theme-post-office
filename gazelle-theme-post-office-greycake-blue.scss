@@ -11,7 +11,7 @@ Further modified by Bonespin pulling the background from GreyCake and make links
 /* Image resources */
 
 $postmod-images-directory: "https://redacted.ch/static/styles/postmod/images";
-$logo: "https://cdn.rawgit.com/bonespin/gazelle-theme-post-office-greycake-blue/red/img/red-logo.png";
+$logo: "https://cdn.rawgit.com/bonespin/gazelle-theme-post-office-greycake-blue/red/img/redacted-logo-phonographe.svg";
 $bg-image: "https://cdn.rawgit.com/bonespin/gazelle-theme-post-office-greycake-blue/red/img/dark-wood.jpg";
 $footer-bg: "https://cdn.rawgit.com/bonespin/gazelle-theme-post-office-greycake-blue/red/img/bg-footer.png";
 $gazelle-image: "https://cdn.rawgit.com/bonespin/gazelle-theme-post-office-greycake-blue/red/img/gazelle.png";
@@ -350,10 +350,10 @@ div#wrapper div#content td.label {
 }
 
 #logo {
-    width: 405px;
+    width: 416px;
     height: 62px;
     background: url(#{$logo}) no-repeat top left;
-    margin-left: -202.5px;
+    margin-left: -208px;
     position: absolute;
     z-index: 2;
     left: 50%;
