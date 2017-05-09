@@ -10,4 +10,4 @@ CSS Link: https://cdn.rawgit.com/bonespin/gazelle-theme-post-office-greycake-blu
 Building
 --
 
-    node-sass pgazelle-theme-post-office-greycake-blue.scss gazelle-theme-post-office-greycake-blue.css
+    node-sass gazelle-theme-post-office-greycake-blue.scss gazelle-theme-post-office-greycake-blue.css
