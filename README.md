@@ -1,9 +1,9 @@
-Post Office GreyCake Blue for NWCD
+Post Office GreyCake Blue for Apollo.rip
 ==
 
-Repository for a forked and modified version of the official Post Office theme for Apollo.rip for NWCD. 
+Repository for the forked and modified version of the official Post Office theme for Apollo.rip.
 
-CSS Link: https://cdn.rawgit.com/bonespin/gazelle-theme-post-office-greycake-blue/nwcd/gazelle-theme-post-office-greycake-blue.css
+CSS Link: https://cdn.rawgit.com/bonespin/gazelle-theme-post-office-greycake-blue/18a264cd/gazelle-theme-post-office-greycake-blue.css
 
 ![](post-office-greycake-blue.jpg?raw=true)
 
